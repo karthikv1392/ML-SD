@@ -1,4 +1,4 @@
-# A machine learning-driven approach to service discovery for microservice architectures
+# A machine learning approach to service discovery for microservice architectures
 
 ## Installation :
 
