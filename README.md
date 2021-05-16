@@ -80,4 +80,4 @@ python3 client.py > client.log &
 
 ### Author
 
-This code was developed by Marco De Toma (https://github.com/detomarco.
+This code was developed by Marco De Toma (https://github.com/detomarco)
