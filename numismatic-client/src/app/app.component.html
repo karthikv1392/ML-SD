@@ -1,0 +1,26 @@
+<button (click)="start()" [disabled]="!accessToken">
+  Start
+</button>
+
+<button (click)="stop()" [disabled]="!accessToken">
+  Stop
+</button>
+
+
+<table *ngIf="serviceInstances">
+
+  <tr>
+    <th>Service Name</th>
+    <th>Url</th>
+    <th>Context</th>
+  </tr>
+
+  <tr *ngFor="let instance of serviceInstances.serviceInstances">
+
+    <td>{{ instance.name }}</td>
+    <td>{{ instance.url }}</td>
+    <td>{{ instance.context }}</td>
+
+  </tr>
+
+</table>
